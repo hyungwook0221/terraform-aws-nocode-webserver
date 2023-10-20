@@ -10,6 +10,10 @@ For no-code provisioning, AWS credentials must be supplied to the workspace via 
 
 Also requires environment variables containing an HCP service principal credential (`HCP_CLIENT_ID` and `HCP_CLIENT_SECRET`). It is recommende to attach these globally or to projects where no-code workspaces will be provisioned.
 
+### 기타 사전에 준비가 필요한 정보
+- Ubuntu Golden Image 필요 [Docs](https://developer.hashicorp.com/packer/tutorials/hcp-get-started/hcp-push-image-metadata) [개인 Github](https://github.dev/hyungwook0221/learn-hcp-packer-get-started)
+- Variables Overriding 필요
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
